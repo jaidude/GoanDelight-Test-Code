@@ -3,19 +3,26 @@ html
     scroll-behavior: smooth;
     
 }
-
+.text-center{
+    color:#ffca3f;
+}
 body
 {
-	background-color: black;
-   color: wheat;
-    padding-top: 40px;
+	background-color:#ede7d7;
+   color: black;
+    padding-top: 90px;
+    padding-left: 200px;
+    padding-right: 200px;
 }
 
-h2{
+
+
+h1{
     font-size: 75px;
     font-family: 'Dancing Script', cursive;
+    padding-bottom: 100px;
+   
 }
-
 
 
 
@@ -28,7 +35,7 @@ h2{
 
 #navId1 .nav-link
 {
-	color: white;
+	color:#ffca3f;
 }
 #navId1 .nav-link:hover
 {
@@ -36,7 +43,7 @@ h2{
 }
 .navbar.scrolled
 {
-	background: #1C1D21;
+  background-color:#ede7d7;
 }
 .logo
 {
@@ -77,9 +84,7 @@ h2{
 .container1:hover .middle {
   opacity: 1;
 }
-.text-center{
-    color: white;
-}
+
 .text {
   background-color: #4CAF50;
   color: white;
