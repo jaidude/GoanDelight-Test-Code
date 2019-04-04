@@ -3,34 +3,47 @@ html
     scroll-behavior: smooth;
     
 }
-
+.text-center{
+    color:#ffca3f;
+}
 body
 {
-	background-color: black;
-   color: wheat;
-    padding-top: 40px;
+	background-color:#ede7d7;
+   color: black;
+    padding-top: 90px;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+h2{
+  padding-top: 50 px;
+  padding-bottom: 100px;
+}
+h3{
+  font-family: 'Oswald', sans-serif;
 }
 
 h1{
     font-size: 75px;
     font-family: 'Dancing Script', cursive;
-    text-align: center;
+    padding-bottom: 100px;
+   
 }
 
-
-
+table
+{
+  padding-top: 200px;
+}
 
 #navId1
 {
     font-family: 'Dancing Script', cursive;
 	font-size: 1.5rem;
-    font-weight: 50;
-    
+	font-weight: 50;
 }
 
 #navId1 .nav-link
 {
-	color: white;
+	color:#ffca3f;
 }
 #navId1 .nav-link:hover
 {
@@ -38,7 +51,7 @@ h1{
 }
 .navbar.scrolled
 {
-	background: #1C1D21;
+  background-color:#ede7d7;
 }
 .logo
 {
@@ -79,9 +92,7 @@ h1{
 .container1:hover .middle {
   opacity: 1;
 }
-.text-center{
-    color: white;
-}
+
 .text {
   background-color: #4CAF50;
   color: white;
