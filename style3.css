@@ -6,6 +6,18 @@ html
 .text-center{
     color:#ffca3f;
 }
+h1{
+  padding-bottom: 20%;
+  font-family: 'Dancing Script', cursive;
+  color: black;
+}
+.img{
+  position: center;
+}
+.writeup{
+  background-origin:padding-box ;
+  background-color:#ffca3f;
+}
 body
 {
 	background-color:#ede7d7;
@@ -27,6 +39,16 @@ h1{
     font-family: 'Dancing Script', cursive;
     padding-bottom: 100px;
    
+}
+.card{
+  background: #ffbc42;
+  padding-left: 0px;
+  
+}
+
+.backimg{
+  width:100%;
+  height:100%;
 }
 
 table
