@@ -1,6 +1,7 @@
 <!doctype html>
 <html lang="en">
   <head>
+    <title>Enquiry page</title>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -8,14 +9,13 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
 
-    <title>about Us</title>
-    <link type="text/css" rel="stylesheet" href="style3.css">
+    <title>home</title>
+    <link type="text/css" rel="stylesheet" href="style2.css">
     <link href="https://fonts.googleapis.com/css?family=Dancing+Script|Open+Sans" rel="stylesheet">
-		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
-		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/solid.css" integrity="sha384-QokYePQSOwpBDuhlHOsX0ymF6R/vLk/UQVz3WHa6wygxI5oGTmDTv8wahFOSspdm" crossorigin="anonymous">
-		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/fontawesome.css" integrity="sha384-vd1e11sR28tEK9YANUtpIOdjGW14pS87bUBuOIoBILVWLFnS+MCX9T6MMf0VdPGq" crossorigin="anonymous">	
-		<link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+  	<link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
 	</head>
+  </head>
   <body>
       <div class="container">
   	<!--header-->
@@ -28,67 +28,69 @@
       				<a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
       				<a class="nav-item nav-link pl-sm-5" href="#">Features</a>
       				<a class="nav-item nav-link pl-sm-4" href="#">Products</a>
-      				<a class="nav-item nav-link pl-sm-4" href="#" active>About Us</a>
-      				<a class="nav-item nav-link pl-sm-4" href="#" >Contact Us</a>
+      				<a class="nav-item nav-link pl-sm-4" href="#">About Us</a>
+      				<a class="nav-item nav-link pl-sm-4" href="#" .active>Contact Us</a>
     			</div>
   			</div>
 		</nav>
-
-		<div class="writeup">
-	<div class="container">
-		<h1>About us</h1>
-	<!--	<p>Established in 2013 along the shores of the tranquil village of Colva.</p>-->
-	<!--<div class="card">-->
-		<div class="col-md-6">
-			<img class="backimg" src="IMG_9809.jpg"  class="img-responsive image-resize" alt="">
-		</div>
-	<!--</div>-->	
-	</div>
-
-
-<div class="container-fluid pb-5 pt-5 ">
-	<div class="row">
-			<div class="col">
-
-			<h3>WHO WE ARE ?</h3>
-			
-			<p> Goan Delite is owned and run by two very ambitious Goans who manufacture almost 30 different pickles and masalas, preserving the pure Goan delicacies in this 21st century. 
-					Products at Goan Delite are made by following traditional Goan recipes that have been passed down generations. 
-			</p>
-	 </div>
 	
-	<div class="col">
-			<h3>WHAT WE DO ? </h3>
-			
-			<p>100% no use of artificial preservatives, colour or taste enhancers. 
-				The products are made with pure Goan toddy vinegar. 
-					traditional recipes are used to make all the products. 
-			</p>
-			 </div>
-			
-	<div class="col">
-			<h3>OUR SERVICES</h3>
-			
-			<p>Modern machinery used during the process of making the products ensures that the product is least touched by human hands. 
-				hygiene is a top priority. 
-				 products are made with a lot of love and effort to satisfy your tastebuds. </p>
-			</div>
-			
-		</div>
-	</div>
+  	</div>
+  <!--end of header-->
+ <h1 class="text-center  ">Enquiry Form</h1>
+<div class="container-fluid pb-5 pt-0 ">
+ 
+
+        <div class="row">
+            <div class="col pr-2 border-right">
+        <div class="form-row">
+            <div class="form-group col-md-6 p-2 p-md-4">
+                <label for="FUllname" >Full Name</label>
+                  <input type="text" class="form-control" name="Firstname" placeholder="Enter Fullname" required>
+            </div>
+            
+      </div>
+    
+      <div class="form-row">
+        <div class="form-group col-lg-6 p-2 p-md-4">
+          <label for="inputEmail4">Email</label>
+          <input type="email" class="form-control" id="inputEmail4" placeholder="Email: xyz@gmail.com" required>
+        </div>
+        
+      </div>
+     
+      <div class="form-row">
+          <div class="form-group col-lg-6 p-2 p-md-4">
+            <label for="Phonenumber">Phonenumber</label>
+            <input type="Phonenumber" class="form-control" id="inputEmail4" placeholder="Enter Phonenumber" pattern="^\d{10}$" required>
+          </div>
+      </div>
+    
+      <div class="form-row">
+        <div class="form-group col-lg-6  p-2 p-md-4">
+          <label for="Message">Message</label>
+          <textarea class="form-control" rows="5" id="comment"></textarea>
+        </div>
+      </div>
+            </div>
+            <div class="col-lg-6 pl-5 ml-2">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3848.7754925434206!2d73.91612471533374!3d15.280034364159821!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bbfb5be1bb7d2d7%3A0x6917519d4669be2f!2sGoan+Delite!5e0!3m2!1sen!2sin!4v1551813251273" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+    
+    
+            </div>
+    
+        </div>
       
-</div>
-
-
-
-
-	<div class="container-fluid">
+      <!--No submit button yet-->
+    
+    </div>
+</div>   
+  <!--end ofproduct-->
 
 	<!-- Footer -->
-	<footer id="footer" class="sm-padding bg-dark ">
+	<footer id="footer" class="sm-padding bg-dark">
 
 		<!-- Container -->
-	
+		<div class="container">
 
 			<!-- Row -->
 			<div class="row">
@@ -120,8 +122,7 @@
     
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-
-      <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
     <script>
