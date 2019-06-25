@@ -5,10 +5,10 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
-
+    <link rel="stylesheet" href="https://www.w3schools.com/lib/w3-colors-flat.css">
     <title>home</title>
     <link type="text/css" rel="stylesheet" href="style2.css">
     <link href="https://fonts.googleapis.com/css?family=Dancing+Script|Open+Sans" rel="stylesheet">
@@ -39,75 +39,60 @@
 
  <!--end of header-->
   <h1 class="text-center">Contact Us</h1>
-<div class="container" style="padding: 20px; background-color:#ffca3f;">
+<div class="container" >
         
-    <div class="row">
-    <div class="col">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15394.808746315306!2d73.9193018!3d15.2840284!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x6917519d4669be2f!2sGoan+Delite!5e0!3m2!1sen!2sin!4v1558460786587!5m2!1sen!2sin" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+        <div class="w3-half w3-flat-sun-flower  w3-padding-16 w3-container w3-center" style="height:260px">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15394.808746315306!2d73.9193018!3d15.2840284!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x6917519d4669be2f!2sGoan+Delite!5e0!3m2!1sen!2sin!4v1558460786587!5m2!1sen!2sin" alt="Lights" style="width:100%;max-width:400px"></iframe>
      </div>
 
-        <div style="height: 280px; padding: 10px;" class="col-md-5 col-sm-12">
-                <img style="height: 255px; width: 100%;" src="physical.jpg">
+     <div class="w3-half w3-flat-sun-flower w3-padding-16 w3-container w3-center" style="height:260px">
+                <img src="physical.jpg" alt="Lights"  style="width:100%;max-width:400px">
             </div>
-    </div>
- 
-          <div class="row">
-             
-        
-           <div class="col">
-                
-                    <h5>Address:</h5>
-                    <p> 
-                        Goan Delite, 3rd Ward, Nr. St Anthony's Chapel, Colva, Salcete, Goa
-                    </p>
-                </div>
-             <div class="col">   
-                
-                    <h5>Mobile:</h5>
-                    <p> +91 7083406678</p>
-                    <p> +91 9822158188</p>
-            </div>
-        
-            <div class="col">    
-                
-                    <h5>Timing:</h5>
-                    <p>
+    
+    <div class="w3-row" id="contact">
+            <div class="w3-half w3-flat-pumpkin w3-container w3-center" style="height:570px">
+              <div class="w3-padding-64">
+               
+              </div>
+              <div class="w3-padding-64">
+                <p> Goan Delite, 3rd Ward, Nr. St Anthony's Chapel, Colva, Salcete, Goa</p>
+                <p> +91 7083406678</p>
+                <p> +91 9822158188</p>
+                <p>
                         08:30 am - 01:00 pm <br>
                         03:00 pm - 07:00 pm <br>
                         <strong>CLOSED ON SUNDAY</strong>
                     </p>
+              </div>
             </div>
-    </div>      
-
-<div class="row">         
-  <div class="form-group">     
-        <label for="name" >Full Name</label>
-        <input type="text" class="form-control-md " name="Firstname" placeholder="Enter Fullname" required>
-    </div>
+            <div class="w3-half w3-flat-orange w3-container" style="height:570px">
+              <div class="w3-padding-64 w3-padding-large">
                 
-    </div>
-        
-          
-     <div class="form-group">              <label for="">Email</label>
-              <input type="email" class="form-control-md " id="inputEmail4" placeholder="Email: xyz@gmail.com" required>
+                
+                <form class="w3-container w3-card w3-padding-32 w3-white" action="/action_page.php" target="_blank">
+                  <div class="w3-section">
+                    <label>Name</label>
+                    <input class="w3-input" style="width:100%;" type="text" required name="Name">
+                  </div>
+                  <div class="w3-section">
+                    <label>Email</label>
+                    <input class="w3-input" style="width:100%;" type="text" required name="Email">
+                  </div>
+                  <div class="w3-section">
+                        <label>Phonenumber</label>
+                        <input class="w3-input" style="width:100%;" type="Phonenumber" required name="Phonenumber" pattern="^\d{10}$" required>
+                      </div>
+                  <div class="w3-section">
+                    <label>Message</label>
+                    <input class="w3-input w3-animate-input" style="width:100%;" type="text" required name="Message">
+                  </div>
+                  <button type="submit" class="w3-button w3-black w3-right">Send</button>
+                </form>
+              </div>
             </div>
-            
-        
-        
-     <div class="form-group">
-                <label for="Phonenumber">Phonenumber</label>
-                <input type="Phonenumber" class="form-control-md " id="inputEmail4" placeholder="Enter Phonenumber" pattern="^\d{10}$" required>
-         </div>
-        
-        
+          </div>
           
-     <div class="form-group">
-              <label for="Message">Message</label>
-              <textarea class="form-control-md " rows="5" id="comment"></textarea>
-        </div>
-    
-        </div>           
-    </div>              
+                   
         
         
 <a class="gotoptn text-center" href="#"><i class="fas fa-arrow-up"></i></a>
@@ -126,4 +111,4 @@
       });
     </script>
   </body>
-</html> >
+</html> 
