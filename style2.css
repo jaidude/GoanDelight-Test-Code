@@ -6,19 +6,14 @@ html
 
 
 body
-{
-	background-color:#efeee1;
-   color: black;
-    padding-top: 90px;
-    padding-left: 100px;
-    padding-right: 100px;
-   
+{background-color:white; 
+   padding-top: 90px;   
 }
 
 .container1{
   background-color: brown;
   position: relative;
-  width: 50%;
+ 
 }
 
 h1{
